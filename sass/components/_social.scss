@@ -39,4 +39,10 @@
 .team .social__link {
   color: var(--svg-social-color);
   transition: background-color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+    color: var(--primary-white-color);
+  }
 }

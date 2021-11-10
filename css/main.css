@@ -823,4 +823,9 @@ ul.works__btn-list {
   color: var(--svg-social-color);
   transition: background-color 250ms var(--timing-function);
 }
+
+.team .social__link:hover, .team .social__link:focus {
+  background: var(--accent-color);
+  color: var(--primary-white-color);
+}
 /*# sourceMappingURL=main.css.map */
