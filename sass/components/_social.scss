@@ -1,0 +1,42 @@
+.social__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+.social__item + .social__item {
+  margin-left: 10px;
+}
+
+.social__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: color 250ms var(--timing-function);
+
+  .team {
+    color: var(--svg-social-color);
+    transition: background-color 250ms var(--timing-function);
+  }
+
+  .current {
+    background: var(--accent-color);
+    color: var(--primary-white-color);
+    transition: background-color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+      background: var(--svg-footer-color);
+      color: var(--svg-social-color);
+    }
+  }
+
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+    color: var(--primary-white-color);
+  }
+}

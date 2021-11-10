@@ -1,0 +1,24 @@
+.samples__list {
+  display: flex;
+}
+
+.samples__item {
+  width: 370px;
+  position: relative;
+}
+
+.samples__block {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 27px 0;
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.samples__text {
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: #ffffff;
+}
