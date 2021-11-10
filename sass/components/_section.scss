@@ -16,8 +16,8 @@
   background-color: var(--primary-white-color);
   margin-top: 0;
   padding: 94px 0;
+}
 
-  .item + .item {
-    margin-left: 30px;
-  }
+.section .item + .item {
+  margin-left: 30px;
 }

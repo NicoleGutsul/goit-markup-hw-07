@@ -401,10 +401,6 @@ h6 {
   color: var(--common-title-color);
 }
 
-.header__link:hover, .header__link:focus {
-  color: var(--accent-color);
-}
-
 .header-contacts {
   margin-left: auto;
   font-weight: 500;
@@ -807,9 +803,9 @@ ul.works__btn-list {
   transition: color 250ms var(--timing-function);
 }
 
-.social__link .team {
-  color: var(--svg-social-color);
-  transition: background-color 250ms var(--timing-function);
+.social__link:hover, .social__link:focus {
+  background: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .social__link .current {
@@ -823,8 +819,8 @@ ul.works__btn-list {
   color: var(--svg-social-color);
 }
 
-.social__link:hover, .social__link:focus {
-  background: var(--accent-color);
-  color: var(--primary-white-color);
+.social__link .team {
+  color: var(--svg-social-color);
+  transition: background-color 250ms var(--timing-function);
 }
 /*# sourceMappingURL=main.css.map */

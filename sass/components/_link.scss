@@ -8,25 +8,26 @@
   &:focus {
     color: var(--accent-color);
   }
-  .current {
-    color: var(--accent-color);
-    position: relative;
-    transition: color 250ms var(--timing-function);
+}
 
-    &::after {
-      display: block;
-      position: absolute;
-      content: '';
-      width: 100%;
-      height: 4px;
-      background-color: var(--accent-color);
-      border-radius: 2px;
-      top: 47px;
-    }
+.link .current {
+  color: var(--accent-color);
+  position: relative;
+  transition: color 250ms var(--timing-function);
 
-    &:hover,
-    &:focus {
-      color: inherit;
-    }
+  &::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    top: 47px;
+  }
+
+  &:hover,
+  &:focus {
+    color: inherit;
   }
 }

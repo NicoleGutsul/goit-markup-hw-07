@@ -1,16 +1,16 @@
 .footer {
   background-color: var(--footer-color);
   padding: 60px 0;
+}
 
-  .social__link {
-    background-color: var(--svg-footer-color);
-    color: var(--primary-white-color);
-    transition: background-color 250ms var(--timing-function);
-  }
+.footer .social__link {
+  background-color: var(--svg-footer-color);
+  color: var(--primary-white-color);
+  transition: background-color 250ms var(--timing-function);
+}
 
-  .container {
-    align-items: baseline;
-  }
+.footer .container {
+  align-items: baseline;
 }
 
 .footer__address {
@@ -44,10 +44,10 @@
 .footer__logo {
   display: block;
   margin-bottom: 20px;
+}
 
-  & > span {
-    color: var(--primary-white-color);
-  }
+.footer__logo > span {
+  color: var(--primary-white-color);
 }
 
 .social {
@@ -85,6 +85,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+
 .signup__input {
   width: 358px;
   height: 50px;

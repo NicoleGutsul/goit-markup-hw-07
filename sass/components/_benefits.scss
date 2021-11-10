@@ -19,8 +19,8 @@
   background-color: var(--secondary-white-color);
   height: 120px;
   margin-bottom: 30px;
+}
 
-  & > .icon {
-    fill: var(--common-title-color);
-  }
+.benefits__icon > .icon {
+  fill: var(--common-title-color);
 }

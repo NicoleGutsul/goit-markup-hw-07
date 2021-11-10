@@ -3,10 +3,10 @@
   font-family: Raleway;
   font-weight: 700;
   line-height: 1.19;
+}
 
-  & > span {
-    color: var(--primary-black-color);
-  }
+.logo > span {
+  color: var(--primary-black-color);
 }
 
 .logo .link {
